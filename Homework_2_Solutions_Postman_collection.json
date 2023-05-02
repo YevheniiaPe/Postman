@@ -61,8 +61,7 @@
 							"\r",
 							"// Проверить, что name в ответе равно name s request (name вбить руками.)\r",
 							"pm.test(\"Hardcode\", function () {\r",
-							"    pm.expect(respData.name).to.eql(\"
-              Yevheniia\");\r",
+							"    pm.expect(respData.name).to.eql(\"Yevheniia\");\r",
 							"});\r",
 							"\r",
 							"// Проверить, что age в ответе равно age s request (age вбить руками.)\r",
